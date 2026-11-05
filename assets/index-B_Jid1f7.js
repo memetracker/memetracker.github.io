@@ -1,0 +1,1 @@
+import{_ as r,m as s,n as a,o as c,r as m}from"./index-S9CQ6vbY.js";const _={name:"Back",beforeRouteEnter(e,n,o){console.log("to.name ",e.name),e.name!=="Login"&&!s.state.bot.accessToken?o({name:"Login"}):o()}};function i(e,n,o,p,f,l){const t=m("router-view");return c(),a(t)}const d=r(_,[["render",i]]);export{d as default};
